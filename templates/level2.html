@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Document</title>
+        <style>
+
+            h1{
+                text-align: center;
+                color:black;
+            }
+            .container {
+                text-align: center;
+            }
+            .box{
+                margin: 0 auto;
+                display: inline-block;
+                background-color: lightblue;
+                border: 3px solid black;
+                height: 200px;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Level 2</h1>
+        <div class = "container">
+            {% for i in range(num) %}
+                <div class="box"></div>
+            {% endfor %}
+        </div>
+        
+        
+    </body>
+</html>
